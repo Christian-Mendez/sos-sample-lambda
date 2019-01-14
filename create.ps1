@@ -46,4 +46,4 @@ foreach ($instance in $instances){
 }
 
 # Publush this script to lambda with the following command
-# Publish-AWSPowerShellLambda -ScriptPath .\snapshots.ps1 -Name Snapshots -Region us-east-1
+# Publish-AWSPowerShellLambda -ScriptPath .\create.ps1 -Name Snapshots -Region us-gov-west-1
