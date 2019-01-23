@@ -15,7 +15,7 @@
         {
             "Effect": "Allow",
             "Action": "ec2:CreateTags",
-            "Resource": "arn:aws:ec2:*::snapshot/*"
+            "Resource": "arn:aws-us-gov:ec2:*::snapshot/*"
         },
         {
             "Effect": "Allow",
